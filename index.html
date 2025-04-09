@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BEM-VINDO MEU AMOR ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fddde6, #fef6fb);
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #8a2c58;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: #ffffffcc;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 35px 30px;
+      max-width: 400px;
+      width: 100%;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #c2185b;
+    }
+
+    p {
+      font-size: 1em;
+      margin-bottom: 25px;
+    }
+
+    .foto-modelo {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .verificado {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e4/Twitter_Verified_Badge.svg');
+      background-size: cover;
+      z-index: 2;
+    }
+  </style>
+
+  <!-- Pixel do Facebook com identificação "front02", valor de R$50 -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '656857440389715');
+    fbq('track', 'Purchase', {
+      value: 50.00,
+      currency: 'BRL',
+      content_name: 'front02'
+    });
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=656857440389715&ev=Purchase&cd[value]=50.00&cd[currency]=BRL&cd[content_name]=front02&noscript=1" />
+  </noscript>
+</head>
+<body>
+  <div class="container">
+    <div style="position: relative;">
+      <img src="modelo.jpg" alt="Modelo verificada" class="foto-modelo">
+      <div class="verificado"></div>
+    </div>
+    <h1>Obrigada, meu amor… você é um tesão! 💋</h1>
+    <p>Agora é só esperar enquanto redirecionamos para a página 😈 .</p>
+  </div>
+
+  <!-- Redirecionamento automático após 1.5 segundos -->
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://t.me/+UsMM6FAo1e02ZTRh";
+    }, 1500);
+  </script>
+</body>
+</html>
